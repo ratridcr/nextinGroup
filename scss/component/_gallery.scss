@@ -1,0 +1,15 @@
+.gallery{
+
+    &__photo{
+        width: 22.8rem;
+    }
+
+    &__photoBox{
+        display: inline-block;
+
+        &:not(:last-child){
+            margin-bottom: 1rem;
+        }
+    }
+    
+}

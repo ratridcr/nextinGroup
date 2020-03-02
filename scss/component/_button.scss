@@ -1,0 +1,113 @@
+.btn-text{
+    &:link,
+    &:visited{
+        font-size: $defaultFont;
+        color: $cyan;
+        border-bottom: 1px solid $cyan;
+        padding: .5rem;
+        display: inline-block;
+        transition: all .3s;
+    }
+
+    &:hover{
+        text-decoration: none;
+        background-color: $cyan;
+        color: $white;
+        box-shadow: 0 1rem 2rem rgba($black,.15);
+        transform: translateY(-.2rem);
+        border-radius: .1rem;
+    }
+}
+
+.button{
+    color: $white;
+    &,
+    &:link,
+    &:visited{
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: .1rem;
+	    padding: 8px 30px;
+	    border-radius: 160px;
+	    display: inline-block;
+	    transition: all .2s;
+		position: relative;
+		font-size: $defaultFont;
+
+		//button
+		border: none;
+		cursor: pointer;
+    }
+    &:hover{
+	    transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba($black,0.2);
+        color: $gray;
+        
+        &::after{
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+	}
+	&:active,
+	&:focus{
+		outline: none;
+	    transform: translateY(-1px);
+	    box-shadow: 0 5px 10px rgba($black,0.2);
+	}
+	&--cyan{
+	    background-color: $background;
+        color: $gray;
+        
+        &::after{
+            background-color: $background;
+        }
+    }
+    
+    &--white{
+        background-color: $cyan;
+        color: $white;
+        
+        &::after{
+            background-color: $cyan;
+        }
+    
+        &:hover{
+            color: $white;
+        }
+    }
+
+	&::after{
+	    content: "";
+	    display: inline-block;
+	    width: 100%;
+	    height: 100%;
+	    border-radius: 160px;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    z-index: -1;
+	    transition: all .4s;
+	}
+}
+
+.active{
+    background-color: $cyan;
+    color: $white;
+    
+    &::after{
+        background-color: $cyan;
+    }
+
+    &:hover{
+        color: $white;
+    }
+}
+
+.tombol{
+    color: $gray;
+
+    &:hover{
+        text-decoration: none;
+        color: $gray;
+    }
+}

@@ -1,0 +1,28 @@
+.footer{
+    background-color: $background;
+    text-align: center;
+    padding: 0rem 0 2rem;
+    // position: relative;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%,-50%);
+
+    &__logo{
+        width: 15rem;
+    }
+
+    &__iconBox{
+        margin-bottom: 1rem;
+        color: $cyan;
+        font-size: 1.5rem;
+    }
+
+    &__icon:not(:last-child){
+        margin-right: 1rem;
+    }
+
+    &__textBox{
+        letter-spacing: .2rem;
+    }
+    
+}

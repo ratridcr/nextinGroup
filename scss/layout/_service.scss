@@ -1,0 +1,22 @@
+.service{
+
+    &__box{
+        padding: 2.5rem 2rem;
+        transition: all .3s;
+
+        &:hover{
+            transform: translateY(-.5rem);
+            box-shadow: 0rem 0rem 1rem rgba($black, .4);
+        }
+    }
+
+    &__icon{
+        font-size: 4rem;
+        margin-bottom: 2rem;
+        transition: all .3s;
+
+        &:hover{
+            color: $cyan;
+        }
+    }
+}

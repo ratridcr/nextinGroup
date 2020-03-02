@@ -1,0 +1,33 @@
+.form{
+
+    &__text{
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        background-color: $background;
+        border: none;
+        text-transform: none;
+        letter-spacing: 0rem;
+        font-size: 0.8rem;
+        transition: all .3s;
+
+        &--input{
+            height: 3rem;
+        }
+
+        &:focus:invalid{
+            border-bottom: 3px solid red;
+        }
+
+        &:focus{
+            outline: none;
+            box-shadow: 0 1rem 2rem rgba($black, .1);
+            border-bottom: 3px solid $cyan;
+        }
+
+        &::-webkit-input-placeholder{
+            text-transform: uppercase;
+            letter-spacing: .5rem;
+        }
+    }
+}

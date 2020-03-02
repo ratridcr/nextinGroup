@@ -1,0 +1,26 @@
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes scroll{
+    0%{
+        top: -5.5rem;
+    }
+    25%{
+        top: -5.5rem;
+    }
+    50%{
+        top: -6.3rem;
+    }
+    80%{
+        top: -5rem;
+    }
+    100%{
+        top: -5.5rem;
+    }
+}
