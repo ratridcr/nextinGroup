@@ -14,6 +14,10 @@
         top: 0;
         left: 50%;
         transform: translateX(-50%);
+
+        @include respond(tab-port) {
+            height: 6rem;
+        } 
     }
     &__textBox{
         position: absolute;
@@ -21,6 +25,12 @@
         left: 50%;
         transform: translate(-50%,-50%);
         text-align: center;
+
+        @include respond(tab-port) {
+            top: 50%;
+            left: 0%;
+            transform: translate(0%,-50%);
+        }
     }
     &__scrolldown{
         display: inline-block;
@@ -30,6 +40,11 @@
         text-transform: uppercase;
         transform: translateX(-50%) rotate(90deg);
         animation: scroll 3s ease infinite;
+
+        @include respond(tab-port) {
+            top: -3.5rem;
+            animation: scroll-mobile 3s ease infinite;
+        }
 
         &--icon{
             color: $black;

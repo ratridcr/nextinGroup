@@ -9,6 +9,8 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="font-awesome/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="icomoon/style.css">
 </head>
 
 <style>
@@ -26,8 +28,37 @@
 <body>
 <div class="wrapper">
 
+<!-- --- Awal Navigation --- -->
+    <div class="menu">
+        <div class="menu__header">
+            <div class="menu__close mt-3">
+                <span class="icon-close2 menu__toggle"></span>
+            </div>
+        </div>
+        <div class="menu__body"></div>
+    </div> 
+
+    <div class="navbar-wrap">
+        <div class="navbar sticky-header">
+            <nav class="navigation" role="navigation">
+                <a href="#" class="menu__toggle">
+                    <span class="navbar-wrap__icon icon-menu h3"></span>
+                </a>
+                <ul class="menu main-menu nav">
+                    <li class="nav__list"><a href="#home-section" class="nav__link">Home</a></li>
+                    <li class="nav__list"><a href="#history" class="nav__link">History of Company</a></li>
+                    <li class="nav__list"><a href="#handle" class="nav__link">What We Do</a></li>
+                    <li class="nav__list"><a href="#portfolio" class="nav__link">Project Gallery</a></li>
+                    <li class="nav__list"><a href="#team" class="nav__link">Our Team</a></li>
+                    <li class="nav__list"><a href="#contact" class="nav__link">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+<!-- --- Akhir Navigation --- -->
+
 <!-- --- Awal Header --- -->
-    <div class="header">
+    <div class="header" id="home-section">
         <div class="header__logoBox">
             <img src="img/logo.png" alt="Logo Next In" class="header__logo">
         </div>
@@ -157,7 +188,7 @@
 <!-- --- Akhir Handle --- -->
 
 <!-- --- Awal Quotes --- -->
-    <div class="parallax">
+    <div class="parallax" id="quotes">
         <div class="parallax__textBox">
             <i class="fas fa-quote-right parallax__quote"></i>
             <span class="parallax__text">success needs a process</span>
@@ -254,7 +285,7 @@
 <!-- --- Akhir Photo --- -->
 
 <!-- --- Awal Team --- -->
-    <section class="section-team">
+    <section class="section-team" id="team">
         <div class="u-align-center u-bottom-medium">
             <h2 class="heading-secondary">meet our team</h2>
             <h3 class="heading-tertiary">Meet our team provide the best service to you.</h3>
@@ -298,7 +329,7 @@
 <!-- --- Akhir Team --- -->
 
 <!-- --- Awal Contact --- -->
-    <section class="section-contact">
+    <section class="section-contact" id="contact">
         <div class="u-align-center">
             <h3 class="heading-tertiary">get in touch</h3>
             <h2 class="heading-secondary u-bottom-big">contact us</h2>
@@ -354,6 +385,11 @@
 <script src="isotope/imagesloaded.pkgd.min.js"></script>
 <script src="isotope/isotope.pkgd.min.js"></script>
 <script src="js/script.js"></script>
+
+  <script src="js/js/owl.carousel.min.js"></script>
+  <script src="js/js/jquery.sticky.js"></script>
+  <script src="js/js/jquery.easing.1.3.js"></script>
+  
 
 </body>
 </html>

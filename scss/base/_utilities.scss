@@ -15,6 +15,10 @@
 }
 .u-right-big{
     margin-right: 4rem;
+
+    @include respond(tab-port) {
+        margin-right: 0;
+    }
 }
 .u-align-center{
     text-align: center;

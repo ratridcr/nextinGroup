@@ -1,0 +1,151 @@
+.navbar-wrap {
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    top: 3rem;
+    right: 4rem;
+    z-index: 99;
+    border: 2px solid $black;
+    border-radius: 50%;
+    transition: all .3s;
+
+    @include respond(tab-port) {
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 1.5rem;
+        right: 1.5rem;
+    }
+
+	a {
+        color: $black;
+        
+        &:hover{
+            color: $black;
+        }
+	}
+    
+    &__icon{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+
+        @include respond(tab-port) {
+            top: 25%;
+        }        
+    }
+
+    &:hover{
+        box-shadow: 0 1rem 3rem rgba($cyan, .3);
+        top: 2.8rem;
+    }
+}
+
+// mobile menu
+
+.menu {
+	width: 100%;
+    position: fixed;
+	z-index: 2000;
+	padding-top: 20px;
+	background: $white;
+	height: calc(100vh);
+	transform: translateX(110%);
+	box-shadow: -10px 0 20px -10px rgba($black, .1);
+	transition: .5s all ease-in-out;
+
+	.offcanvas-menu & {
+		transform: translateX(0%);
+	}
+
+	&__header {
+		width: 100%;
+		float: left;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+    &__close {
+        float: right;
+        margin-top: 8px;
+
+        span {
+            font-size: 2.5rem;
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 0px;
+            line-height: 1;
+            cursor: pointer;
+            transition: .3s all ease;
+            color: $black;
+
+            &:hover {
+                color: $cyan;
+            }
+        }
+
+    }
+
+	&__body {
+        text-align: center;
+		overflow-y: scroll;
+  	    -webkit-overflow-scrolling: touch;
+        position: relative;
+        top: 40%;
+        transform: translateY(-50%);
+		padding: 20px;
+
+	}
+}
+
+.nav{
+
+    &__list{
+        list-style: none;
+        text-transform: uppercase;
+        font-size: 2rem;
+        letter-spacing: .3rem;
+
+        &:not(:last-child){
+            margin-bottom: 1rem;
+        }
+
+    }
+
+    &__link{
+        color: $black;
+        display: inline-block;
+        transition: all .2s ease-in-out;
+        text-decoration: none;
+        padding: .5rem 1rem;
+
+        &:hover{
+            color: $cyan;
+            text-decoration: none;
+            text-shadow: -10px 0 20px -10px rgba($black, .1);
+            transform: translateX(-.5rem);
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &--active{
+            color: $cyan;
+            text-decoration: none;
+            border: 2px solid $cyan;
+            box-shadow: -10px 0 20px -10px rgba($black, .1);
+            transform: translateX(-.5rem);
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+
+        
+    }
+}
+
+
+
+
+

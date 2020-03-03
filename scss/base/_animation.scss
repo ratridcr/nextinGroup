@@ -7,20 +7,58 @@
     }
 }
 
+@keyframes scroll-mobile{
+    0%{
+        top: -3.5rem;
+    }
+    25%{
+        top: -3.5rem;
+    }
+    50%{
+        top: -4rem;
+    }
+    80%{
+        top: -3rem;
+    }
+    100%{
+        top: -3.5rem;
+    }
+}
+
 @keyframes scroll{
     0%{
         top: -5.5rem;
+
+        @include respond(tab-port) {
+            top: -3rem;
+        }
     }
     25%{
         top: -5.5rem;
+
+        @include respond(tab-port) {
+            top: -3rem;
+        }
     }
     50%{
         top: -6.3rem;
+
+        @include respond(tab-port) {
+            top: -3.8rem;
+        }
     }
     80%{
         top: -5rem;
+
+        @include respond(tab-port) {
+            top: -2.5rem;
+        }
     }
     100%{
         top: -5.5rem;
+
+        @include respond(tab-port) {
+            top: -3rem;
+        }
     }
 }

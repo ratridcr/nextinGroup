@@ -4,4 +4,8 @@
 .section-team,
 .section-contact{
     padding: 3rem 4rem;
+
+    @include respond(tab-port) {
+        padding: 1.5rem;
+    }
 }
