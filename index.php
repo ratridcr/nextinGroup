@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
 </head>
 
 <style>
@@ -19,6 +21,9 @@
     }
     :root {
         --swiper-theme-color: #8bb8b8;
+    }
+    .swiper-slide{
+        margin-bottom: 2rem;
     }
     .swiper-pagination-bullet{
         width: 12px;
@@ -46,7 +51,7 @@
                 </a>
                 <ul class="menu main-menu nav">
                     <li class="nav__list"><a href="#home-section" class="nav__link">Home</a></li>
-                    <li class="nav__list"><a href="#history" class="nav__link">History of Company</a></li>
+                    <li class="nav__list"><a href="#history" class="nav__link">History Company</a></li>
                     <li class="nav__list"><a href="#handle" class="nav__link">What We Do</a></li>
                     <li class="nav__list"><a href="#portfolio" class="nav__link">Project Gallery</a></li>
                     <li class="nav__list"><a href="#team" class="nav__link">Our Team</a></li>
@@ -82,7 +87,7 @@
     <section class="section-history" id="history">
         <div class="row">
 
-            <div class="col-md-12 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <h2 class="heading-secondary u-bottom-medium">
                     history of company
                 </h2>
@@ -95,7 +100,7 @@
                 <a href="#" class="btn-text">Read more &rarr;</a>
             </div>
 
-            <div class="col-md-12 col-lg-6">
+            <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="composition">
                     <img src="img/history1.jpg" alt="History 1" class="composition__photo composition__photo--p1">
                     <img src="img/history2.jpg" alt="History 2" class="composition__photo composition__photo--p2">
@@ -220,6 +225,9 @@
                     <div class="grid-sizer col-md-3 col-lg-4"></div>
                     <div class="col-lg-4 col-md-6 gallery__photoBox all website">
                         <div class="gallery__box">
+                            <div class="gallery__box--name">
+                                <a href="#popup" class="gallery__box--name-icon icon-search2"></a>
+                            </div>
                             <img class="gallery__photo" src="img/gallery1.jpg" alt="Gallery 1">
                         </div>
                     </div>
@@ -286,7 +294,7 @@
 
 <!-- --- Awal Team --- -->
     <section class="section-team" id="team">
-        <div class="u-align-center u-bottom-medium">
+        <div class="u-align-center u-bottom-big">
             <h2 class="heading-secondary">meet our team</h2>
             <h3 class="heading-tertiary">Meet our team provide the best service to you.</h3>
         </div>
@@ -294,29 +302,65 @@
         <div class="team">
             <div class="row">
 
-                <div class="container2 swiper-container">
+                <div class="swiper-container">
                     <div class="swiper-wrapper u-align-center">
 
                         <div class="swiper-slide">
                             <div class="team__box">
+                                <div class="team__box--name">
+                                    <span class="team__box--name-1">Sten James <p class="team__box--name-2">web designer</p></span>
+                                </div>
                                 <img src="img/team1.jpg" alt="Team 1" class="team__photo">
                             </div>
                         </div>
 
                         <div class="swiper-slide">
                             <div class="team__box">
+                                <div class="team__box--name">
+                                    <span class="team__box--name-1">Sten James <p class="team__box--name-2">web designer</p></span>
+                                </div>
                                 <img src="img/team2.jpg" alt="Team 2" class="team__photo">
                             </div>
                         </div>
 
                         <div class="swiper-slide">
                             <div class="team__box">
+                                <div class="team__box--name">
+                                    <span class="team__box--name-1">Sten James <p class="team__box--name-2">web designer</p></span>
+                                </div>
                                 <img src="img/team3.jpg" alt="Team 3" class="team__photo">
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="team__box">
-                                <img src="img/team3.jpg" alt="Team 3" class="team__photo">
+                                <div class="team__box--name">
+                                    <span class="team__box--name-1">Sten James <p class="team__box--name-2">web designer</p></span>
+                                </div>
+                                <img src="img/team4.jpg" alt="Team 4" class="team__photo">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team__box">
+                                <div class="team__box--name">
+                                    <span class="team__box--name-1">Sten James <p class="team__box--name-2">web designer</p></span>
+                                </div>
+                                <img src="img/team5.jpg" alt="Team 5" class="team__photo">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team__box">
+                                <div class="team__box--name">
+                                    <span class="team__box--name-1">Sten James <p class="team__box--name-2">web designer</p></span>
+                                </div>
+                                <img src="img/team6.jpg" alt="Team 6" class="team__photo">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="team__box">
+                                <div class="team__box--name">
+                                    <span class="team__box--name-1">Sten James <p class="team__box--name-2">web designer</p></span>
+                                </div>
+                                <img src="img/team7.jpg" alt="Team 7" class="team__photo">
                             </div>
                         </div>
 
@@ -370,7 +414,7 @@
         <i class="fab fa-youtube footer__icon"></i>
     </div>
     <div class="footer__textBox">
-        <span>Copyright &copy;2020 | This template is made by Ratridcr</span>
+        <span class="footer__copyright">Copyright &copy;2020 | This template is made by Ratridcr</span>
     </div>
 </footer>
 <!-- --- Akhir Footer --- -->
@@ -385,10 +429,10 @@
 <script src="isotope/imagesloaded.pkgd.min.js"></script>
 <script src="isotope/isotope.pkgd.min.js"></script>
 <script src="js/script.js"></script>
-
-  <script src="js/js/owl.carousel.min.js"></script>
-  <script src="js/js/jquery.sticky.js"></script>
-  <script src="js/js/jquery.easing.1.3.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
   
 
 </body>

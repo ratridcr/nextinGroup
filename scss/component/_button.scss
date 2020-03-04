@@ -36,7 +36,12 @@
 
 		//button
 		border: none;
-		cursor: pointer;
+        cursor: pointer;
+        
+        @include respond(tab-port) {
+            padding: 8px 20px;
+            margin-bottom: 1rem;
+        }
     }
     &:hover{
 	    transform: translateY(-3px);

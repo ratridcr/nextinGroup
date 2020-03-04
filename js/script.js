@@ -33,13 +33,13 @@ var swiper = new Swiper('.container2', {
     spaceBetween: 30,
     centeredSlides: false,
     autoplay: {
-        delay: 2000,
+        delay: 3000,
         disableOnInteraction: false,
     },
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
-        delay: 2000,
+        delay: 3000,
         dynamicBullets: true,
     },
     breakpoints: {
@@ -66,8 +66,8 @@ var swiper = new Swiper('.container2', {
 
 
     $('.portfolio-filter ul li').on('click', function () {
-        $('.portfolio-filter ul li').removeClass('nav__link--active');
-        $(this).addClass('nav__link--active');
+        $('.portfolio-filter ul li').removeClass('active');
+        $(this).addClass('active');
 
         var data = $(this).attr('data-filter');
         $workGrid.isotope({
@@ -106,10 +106,10 @@ jQuery(document).ready(function($) {
 
 			if ( $('body').hasClass('offcanvas-menu') ) {
 				$('body').removeClass('offcanvas-menu');
-				$this.removeClass('nav__link--active');
+				$this.removeClass('active');
 			} else {
 				$('body').addClass('offcanvas-menu');
-				$this.addClass('nav__link--active');
+				$this.addClass('active');
 			}
 		}) 
 
@@ -149,6 +149,15 @@ jQuery(document).ready(function($) {
 
 });
 
-$(document).on('click', 'ul li', function(){
+$(document).on('click', '.nav__list', function(){
     $(this).addClass('nav__link--active').siblings().removeClass('nav__link--active')
 })
+
+// --- fancybox --- //
+$('.fancybox').on('click', function() {
+    var visibleLinks = $('.fancybox');
+
+    $.fancybox.open( visibleLinks, {}, visibleLinks.index( this ) );
+
+    return false;
+  });

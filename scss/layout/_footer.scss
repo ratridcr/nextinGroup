@@ -8,13 +8,32 @@
     // transform: translate(-50%,-50%);
 
     &__logo{
-        width: 15rem;
+        height: 10rem;
+
+        @include respond(tab-port) {
+            height: 8rem;
+        }
+
+        @include respond(mobile) {
+            height: 6rem;
+        }
+        
     }
 
     &__iconBox{
         margin-bottom: 1rem;
         color: $cyan;
         font-size: 1.5rem;
+
+        @include respond(tab-port) {
+            margin-bottom: 0rem;
+            font-size: 1.3rem;
+        }
+
+        @include respond(mobile) {
+            margin-bottom: 0rem;
+            font-size: 1rem;
+        }
     }
 
     &__icon:not(:last-child){
@@ -23,6 +42,17 @@
 
     &__textBox{
         letter-spacing: .2rem;
+
+        @include respond(mobile) {
+            letter-spacing: 0rem;
+        }
+    }
+
+    &__copyright{
+
+        @include respond(mobile) {
+            font-size: .7rem;
+        }
     }
     
 }
