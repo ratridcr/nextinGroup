@@ -35,10 +35,10 @@
     }
 
     &__text{
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         text-transform: uppercase;
         font-weight: 500;
-        letter-spacing: .2rem;
+        letter-spacing: .1rem;
         font-style: italic;
 
         @include respond(tab-port) {
@@ -53,12 +53,11 @@
     }
 
     &__quote{
-        margin: 2rem;
+        margin: 1rem;
         font-size: 1.5rem;
         color: $cyan;
 
         @include respond(tab-port) {
-            margin: 1rem;
             font-size: 1rem;
         }
 

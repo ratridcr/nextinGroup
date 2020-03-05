@@ -106,3 +106,28 @@ body{
         font-size: 0.8rem;
     }
 }
+
+.heading-line{
+    width: 3rem;
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 0.625rem;
+    margin-left: 0;
+    border: none;
+    background-color: $cyan;
+}
+
+.popup-judul{
+    color: $cyan;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+
+    @include respond(tab-port) {
+        font-size: .9rem;
+    }
+
+    @include respond(mobile) {
+        font-size: 0.8rem;
+    }
+}

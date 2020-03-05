@@ -226,7 +226,7 @@
                     <div class="col-lg-4 col-md-6 gallery__photoBox all website">
                         <div class="gallery__box">
                             <div class="gallery__box--name">
-                                <a href="#popup" class="gallery__box--name-icon icon-search2"></a>
+                                <a href="#popup1" class="gallery__box--name-icon icon-search2"></a>
                             </div>
                             <img class="gallery__photo" src="img/gallery1.jpg" alt="Gallery 1">
                         </div>
@@ -234,54 +234,81 @@
 
                     <div class="col-lg-4 col-md-6 gallery__photoBox all software">
                         <div class="gallery__box">
+                            <div class="gallery__box--name">
+                                <a href="#popup2" class="gallery__box--name-icon icon-search2"></a>
+                            </div>
                             <img class="gallery__photo" src="img/gallery2.jpg" alt="Gallery 2">
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 gallery__photoBox all software">
                         <div class="gallery__box">
+                            <div class="gallery__box--name">
+                                <a href="#popup3" class="gallery__box--name-icon icon-search2"></a>
+                            </div>
                             <img class="gallery__photo" src="img/gallery3.jpg" alt="Gallery 3">
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 gallery__photoBox all website">
                         <div class="gallery__box">
+                            <div class="gallery__box--name">
+                                <a href="#popup4" class="gallery__box--name-icon icon-search2"></a>
+                            </div>
                             <img class="gallery__photo" src="img/gallery4.jpg" alt="Gallery 4">
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 gallery__photoBox all software">
                         <div class="gallery__box">
+                            <div class="gallery__box--name">
+                                <a href="#popup5" class="gallery__box--name-icon icon-search2"></a>
+                            </div>
                             <img class="gallery__photo" src="img/gallery5.jpg" alt="Gallery 5">
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 gallery__photoBox all banner">
                         <div class="gallery__box">
+                            <div class="gallery__box--name">
+                                <a href="#popup6" class="gallery__box--name-icon icon-search2"></a>
+                            </div>
                             <img class="gallery__photo" src="img/gallery6.jpg" alt="Gallery 6">
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 gallery__photoBox all banner">
                         <div class="gallery__box">
+                            <div class="gallery__box--name">
+                                <a href="#popup7" class="gallery__box--name-icon icon-search2"></a>
+                            </div>
                             <img class="gallery__photo" src="img/gallery7.jpg" alt="Gallery 7">
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 gallery__photoBox all website">
                         <div class="gallery__box">
+                            <div class="gallery__box--name">
+                                <a href="#popup8" class="gallery__box--name-icon icon-search2"></a>
+                            </div>
                             <img class="gallery__photo" src="img/gallery8.jpg" alt="Gallery 8">
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 gallery__photoBox all banner">
                         <div class="gallery__box">
+                            <div class="gallery__box--name">
+                                <a href="#popup9" class="gallery__box--name-icon icon-search2"></a>
+                            </div>
                             <img class="gallery__photo" src="img/gallery9.jpg" alt="Gallery 9">
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6 gallery__photoBox all website">
                         <div class="gallery__box">
+                            <div class="gallery__box--name">
+                                <a href="#popup10" class="gallery__box--name-icon icon-search2"></a>
+                            </div>
                             <img class="gallery__photo" src="img/gallery10.jpg" alt="Gallery 10">
                         </div>
                     </div>
@@ -419,8 +446,227 @@
 </footer>
 <!-- --- Akhir Footer --- -->
 
+<!-- --- Awal Popup --- -->
+<div class="popup" id="popup1">
+    <div class="popup__content">
+    <a href="#portfolio" class="popup__close">&times;</a>
+        <div class="popup__main">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <img class="popup__photo" src="img/popup1.jpg" alt="Popup 1">
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <div class="popup__text">
+                        <h2 class="heading-secondary">Website</h2>
+                        <hr class="heading-line">
+                        <h4 class="popup-judul u-bottom-medium">crazy style code to overnight</h4>
+                        <p class="paragraph u-bottom-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae necessitatibus rerum, animi corporis tempora ipsum aut ipsam eos dignissimos dolores magni. Necessitatibus, alias. Fugiat eaque velit cum ipsam minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam?</p>
+                        <a href="#portfolio" class="button button--white">Back &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
+<div class="popup" id="popup2">
+    <div class="popup__content">
+    <a href="#portfolio" class="popup__close">&times;</a>
+        <div class="popup__main">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <img class="popup__photo" src="img/popup2.jpg" alt="Popup 2">
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <div class="popup__text">
+                        <h2 class="heading-secondary">Software</h2>
+                        <hr class="heading-line">
+                        <h4 class="popup-judul u-bottom-medium">awesome program logic</h4>
+                        <p class="paragraph u-bottom-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae necessitatibus rerum, animi corporis tempora ipsum aut ipsam eos dignissimos dolores magni. Necessitatibus, alias. Fugiat eaque velit cum ipsam minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam?</p>
+                        <a href="#portfolio" class="button button--white">Back &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="popup3">
+    <div class="popup__content">
+    <a href="#portfolio" class="popup__close">&times;</a>
+        <div class="popup__main">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <img class="popup__photo" src="img/popup3.jpg" alt="Popup 3">
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <div class="popup__text">
+                        <h2 class="heading-secondary">Software</h2>
+                        <hr class="heading-line">
+                        <h4 class="popup-judul u-bottom-medium">awesome program logic</h4>
+                        <p class="paragraph u-bottom-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae necessitatibus rerum, animi corporis tempora ipsum aut ipsam eos dignissimos dolores magni. Necessitatibus, alias. Fugiat eaque velit cum ipsam minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam?</p>
+                        <a href="#portfolio" class="button button--white">Back &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="popup4">
+    <div class="popup__content">
+    <a href="#portfolio" class="popup__close">&times;</a>
+        <div class="popup__main">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <img class="popup__photo" src="img/popup4.jpg" alt="Popup 4">
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <div class="popup__text">
+                        <h2 class="heading-secondary">Website</h2>
+                        <hr class="heading-line">
+                        <h4 class="popup-judul u-bottom-medium">crazy style code to overnight</h4>
+                        <p class="paragraph u-bottom-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae necessitatibus rerum, animi corporis tempora ipsum aut ipsam eos dignissimos dolores magni. Necessitatibus, alias. Fugiat eaque velit cum ipsam minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam?</p>
+                        <a href="#portfolio" class="button button--white">Back &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="popup5">
+    <div class="popup__content">
+    <a href="#portfolio" class="popup__close">&times;</a>
+        <div class="popup__main">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <img class="popup__photo" src="img/popup5.jpg" alt="Popup 5">
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <div class="popup__text">
+                        <h2 class="heading-secondary">Software</h2>
+                        <hr class="heading-line">
+                        <h4 class="popup-judul u-bottom-medium">awesome program logic</h4>
+                        <p class="paragraph u-bottom-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae necessitatibus rerum, animi corporis tempora ipsum aut ipsam eos dignissimos dolores magni. Necessitatibus, alias. Fugiat eaque velit cum ipsam minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam?</p>
+                        <a href="#portfolio" class="button button--white">Back &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="popup6">
+    <div class="popup__content">
+    <a href="#portfolio" class="popup__close">&times;</a>
+        <div class="popup__main">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <img class="popup__photo" src="img/popup6.jpg" alt="Popup 6">
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <div class="popup__text">
+                        <h2 class="heading-secondary">Banner</h2>
+                        <hr class="heading-line">
+                        <h4 class="popup-judul u-bottom-medium">creative design shopee banner</h4>
+                        <p class="paragraph u-bottom-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae necessitatibus rerum, animi corporis tempora ipsum aut ipsam eos dignissimos dolores magni. Necessitatibus, alias. Fugiat eaque velit cum ipsam minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam?</p>
+                        <a href="#portfolio" class="button button--white">Back &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="popup7">
+    <div class="popup__content">
+    <a href="#portfolio" class="popup__close">&times;</a>
+        <div class="popup__main">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <img class="popup__photo" src="img/popup7.jpg" alt="Popup 7">
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <div class="popup__text">
+                        <h2 class="heading-secondary">Banner</h2>
+                        <hr class="heading-line">
+                        <h4 class="popup-judul u-bottom-medium">creative design shopee banner</h4>
+                        <p class="paragraph u-bottom-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae necessitatibus rerum, animi corporis tempora ipsum aut ipsam eos dignissimos dolores magni. Necessitatibus, alias. Fugiat eaque velit cum ipsam minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam?</p>
+                        <a href="#portfolio" class="button button--white">Back &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="popup8">
+    <div class="popup__content">
+    <a href="#portfolio" class="popup__close">&times;</a>
+        <div class="popup__main">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <img class="popup__photo" src="img/popup8.jpg" alt="Popup 8">
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <div class="popup__text">
+                        <h2 class="heading-secondary">Website</h2>
+                        <hr class="heading-line">
+                        <h4 class="popup-judul u-bottom-medium">crazy style code to overnight</h4>
+                        <p class="paragraph u-bottom-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae necessitatibus rerum, animi corporis tempora ipsum aut ipsam eos dignissimos dolores magni. Necessitatibus, alias. Fugiat eaque velit cum ipsam minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam?</p>
+                        <a href="#portfolio" class="button button--white">Back &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="popup9">
+    <div class="popup__content">
+    <a href="#portfolio" class="popup__close">&times;</a>
+        <div class="popup__main">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <img class="popup__photo" src="img/popup9.jpg" alt="Popup 9">
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <div class="popup__text">
+                        <h2 class="heading-secondary">Banner</h2>
+                        <hr class="heading-line">
+                        <h4 class="popup-judul u-bottom-medium">creative design shopee banner</h4>
+                        <p class="paragraph u-bottom-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae necessitatibus rerum, animi corporis tempora ipsum aut ipsam eos dignissimos dolores magni. Necessitatibus, alias. Fugiat eaque velit cum ipsam minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam?</p>
+                        <a href="#portfolio" class="button button--white">Back &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup" id="popup10">
+    <div class="popup__content">
+    <a href="#portfolio" class="popup__close">&times;</a>
+        <div class="popup__main">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <img class="popup__photo" src="img/popup10.jpg" alt="Popup 10">
+                </div>
+                <div class="col-sm-12 col-md-5">
+                    <div class="popup__text">
+                        <h2 class="heading-secondary">Website</h2>
+                        <hr class="heading-line">
+                        <h4 class="popup-judul u-bottom-medium">crazy style code to overnight</h4>
+                        <p class="paragraph u-bottom-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vitae necessitatibus rerum, animi corporis tempora ipsum aut ipsam eos dignissimos dolores magni. Necessitatibus, alias. Fugiat eaque velit cum ipsam minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quam?</p>
+                        <a href="#portfolio" class="button button--white">Back &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --- Akhir Popup --- -->
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
