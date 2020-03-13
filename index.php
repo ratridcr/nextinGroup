@@ -6,9 +6,9 @@
     <title>Next In Group</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="icomoon/style.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
@@ -77,8 +77,8 @@
         
     </div>
     <div class="header__scrolldown">
-            <a href="#history" class="header__scrolldown--icon smoothscroll">scroll down&rarr;</a>
-        </div>
+        <a href="#history" class="header__scrolldown--icon smoothscroll">scroll down&rarr;</a>
+    </div>
 <!-- --- Akhir Header --- -->
 
 <main>
